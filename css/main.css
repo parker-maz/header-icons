@@ -32,20 +32,25 @@ img {
 }
 
 .list {
+  width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-around;
+  text-align: center;
 }
 
 li {
-  display: inline-block;
   list-style-type: none;
 }
 
 a {
-  padding: .5em;
+  display: block;
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border: solid #a63f38;
+  border-width: 2px 0;
 }
