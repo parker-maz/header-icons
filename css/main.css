@@ -15,6 +15,7 @@ body {
 header {
   background-color: #d05c2e;
   color: #fff;
+  align-items: center;
 }
 
 h1 {
