@@ -24,6 +24,8 @@ h1 {
 
 img {
   width: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
@@ -56,4 +58,8 @@ a {
   border: solid #a63f38;
   border-width: 2px 1px;
   width: 100%;
+}
+
+a:hover {
+  background-color: #a63f38;
 }
