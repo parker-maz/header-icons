@@ -42,15 +42,17 @@ img {
 
 li {
   list-style-type: none;
+  flex-basis: 33.4%;
 }
 
 a {
-  display: block;
+  display: inline-block;
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
   padding-top: .5em;
   padding-bottom: .5em;
   border: solid #a63f38;
-  border-width: 2px 0;
+  border-width: 2px 1px;
+  width: 100%;
 }
